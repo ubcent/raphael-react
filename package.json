@@ -1,0 +1,39 @@
+{
+  "name": "raphael-react",
+  "version": "0.0.1",
+  "description": "React wrapper under the raphaeljs library",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf build/ && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubcent/raphael-react.git"
+  },
+  "keywords": [
+    "react",
+    "raphael",
+    "svg",
+    "components",
+    "paper"
+  ],
+  "peerDependencies": {
+    "react": "^15.4.2"
+  },
+  "author": "Dmitry Bondarchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubcent/raphael-react/issues"
+  },
+  "homepage": "https://github.com/ubcent/raphael-react#readme",
+  "devDependencies": {
+    "@types/raphael": "^2.1.30",
+    "@types/react": "^16.0.5",
+    "rimraf": "^2.6.1",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "raphael": "^2.2.7"
+  }
+}
